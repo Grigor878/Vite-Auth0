@@ -12,9 +12,11 @@
     "page": "generate-react component --type=page"
   },
   "dependencies": {
-    "generate-react-cli": "^8.3.0",
+    "@auth0/auth0-react": "^2.2.1",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
     "sass": "^1.67.0"
   },
   "devDependencies": {
@@ -25,6 +27,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "generate-react-cli": "^8.3.0",
     "vite": "^4.4.5"
   }
 }
