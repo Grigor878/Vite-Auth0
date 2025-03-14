@@ -1,15 +1,15 @@
 import ReactDOM from "react-dom/client";
 import { Auth0Provider } from "@auth0/auth0-react";
-import View from "./View/View.jsx";
+import View from "./view/view.jsx";
+// import "../src/services/i18next/i18next";
 import "./index.scss";
 
-const domain = import.meta.env.VITE_DOMAIN;
-const clientId = import.meta.env.VITE_CLIENT_ID;
+const {VITE_DOMAIN,VITE_CLIENT_ID,} = import.meta.env;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Auth0Provider
-    domain={domain}
-    clientId={clientId}
+    domain={VITE_DOMAIN}
+    clientId={VITE_CLIENT_ID}
     authorizationParams={{
       redirect_uri: window.location.origin,
     }}

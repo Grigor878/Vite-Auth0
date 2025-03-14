@@ -26,6 +26,17 @@
       "withTest": false,
       "withStory": false,
       "withLazy": false
+    },
+    "slice": {
+      "customTemplates": {
+        "component": "templates/slice/TemplateName.js"
+      },
+      "path": "src/store/slices",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "flat": true
     }
   }
 }

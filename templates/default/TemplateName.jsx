@@ -1,5 +1,7 @@
 import styles from "./templateName.module.scss";
 
 export const TemplateName = () => {
-  return <div className={styles.templateName}>Template</div>;
+  return <div className={styles.templateName}>
+    
+  </div>;
 };

@@ -1,3 +1,6 @@
-.auth{
-    
+@import "../../../../variables";
+
+.auth {
+    @include flex;
+    gap: 25px;
 }
