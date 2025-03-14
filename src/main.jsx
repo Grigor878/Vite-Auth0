@@ -4,7 +4,7 @@ import View from "./view/view.jsx";
 // import "../src/services/i18next/i18next";
 import "./index.scss";
 
-const {VITE_DOMAIN,VITE_CLIENT_ID,} = import.meta.env;
+const { VITE_DOMAIN, VITE_CLIENT_ID } = import.meta.env;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Auth0Provider
